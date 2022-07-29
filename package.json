@@ -1,6 +1,6 @@
 {
   "name": "@stagas/timesnap",
-  "version": "0.3.4-prerelease",
+  "version": "0.3.4",
   "description": "Take screenshots of web pages at smooth intervals",
   "repository": {
     "type": "git",
