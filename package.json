@@ -1,12 +1,17 @@
 {
-  "name": "timesnap",
+  "name": "@stagas/timesnap",
   "version": "0.3.4-prerelease",
   "description": "Take screenshots of web pages at smooth intervals",
   "repository": {
     "type": "git",
+    "url": "https://github.com/stagas/timesnap.git"
+  },
+  "originalRepository": {
+    "type": "git",
     "url": "https://github.com/tungs/timesnap.git"
   },
-  "author": {
+  "author": "stagas",
+  "originalAuthor": {
     "name": "Steve Tung"
   },
   "engines": {
@@ -14,6 +19,8 @@
   },
   "main": "index.js",
   "scripts": {
+    "prepack": "echo ok",
+    "prepush": "echo ok",
     "lint": "eslint *.js './lib/**/*.js'"
   },
   "bin": {
@@ -21,11 +28,11 @@
   },
   "license": "BSD-3-Clause",
   "dependencies": {
-    "commander": "^2.11.0",
-    "puppeteer": "^2.1.1",
-    "timeweb": "0.3.1",
-    "unrandomize": "0.1.0",
-    "sprintf-js": "1.1.1"
+    "commander": "^2.20.3",
+    "puppeteer": "^13.5.2",
+    "sprintf-js": "1.1.2",
+    "timeweb": "0.3.0",
+    "unrandomize": "0.1.0"
   },
   "devDependencies": {
     "eslint": "^7.32.0"

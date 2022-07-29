@@ -6,4 +6,4 @@ node_modules/
 *.tgz
 
 # Npm utilities
-yalc.lock
+yalc.lockpackage-lock.json
