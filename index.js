@@ -180,7 +180,7 @@ module.exports = async function (config) {
     }
     if ('preparePage' in config) {
       log('Preparing page before screenshots...');
-      await Promise.resolve(config.preparePage(page));
+      await config.preparePage(page);
       log('Page prepared');
     }
     if (startWaitMs) {
